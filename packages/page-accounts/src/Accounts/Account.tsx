@@ -240,7 +240,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
           {t('Unlock vested amount')}
         </Menu.Item>
       )
-    ]),
+    ], t('Identity')),
     createMenuGroup('deriveGroup', [
       !(isExternal || isHardware || isInjected || isMultisig) && (
         <Menu.Item
@@ -258,7 +258,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
           {t('Show address on hardware device')}
         </Menu.Item>
       )
-    ]),
+    ], t('Derive')),
     createMenuGroup('backupGroup', [
       !(isExternal || isHardware || isInjected || isMultisig || isDevelopment) && (
         <Menu.Item
@@ -284,7 +284,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
           {t('Forget this account')}
         </Menu.Item>
       )
-    ]),
+    ], t('Backup')),
     isFunction(api.api.tx.recovery?.createRecovery) && createMenuGroup('reoveryGroup', [
       !recoveryInfo && (
         <Menu.Item
@@ -300,7 +300,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
       >
         {t('Initiate recovery for another')}
       </Menu.Item>
-    ]),
+    ], t('Recovery')),
     isFunction(api.api.tx.multisig?.asMulti) && isMultisig && createMenuGroup('multisigGroup', [
       <Menu.Item
         disabled={!multiInfos || !multiInfos.length}
@@ -309,7 +309,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
       >
         {t('Multisig approvals')}
       </Menu.Item>
-    ]),
+    ], t('Multisig')),
     isFunction(api.api.query.democracy?.votingOf) && delegation?.accountDelegated && createMenuGroup('undelegateGroup', [
       <Menu.Item
         key='changeDelegate'
@@ -323,7 +323,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
       >
         {t('Undelegate')}
       </Menu.Item>
-    ]),
+    ], t('Undelegate')),
     isFunction(api.api.query.democracy?.votingOf) && !delegation?.accountDelegated && createMenuGroup('delegateGroup', [
       <Menu.Item
         key='delegate'
@@ -331,7 +331,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
       >
         {t('Delegate democracy votes')}
       </Menu.Item>
-    ]),
+    ], t('Delegate')),
     isFunction(api.api.query.proxy?.proxies) && createMenuGroup('proxyGroup', [
       <Menu.Item
         key='proxy-overview'
@@ -342,7 +342,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
           : t('Add proxy')
         }
       </Menu.Item>
-    ]),
+    ], t('Proxy')),
     isEditable && !api.isDevelopment && createMenuGroup('genesisGroup', [
       <ChainLock
         className='accounts--network-toggle'
@@ -350,7 +350,7 @@ function Account ({ account: { address, meta }, className = '', delegation, filt
         key='chainlock'
         onChange={onSetGenesisHash}
       />
-    ])
+    ], t('Genesis'))
   ].filter((i) => i),
   [_clearDemocracyLocks, _showOnHardware, _vestingVest, api, delegation, democracyUnlockTx, genesisHash, identity, isDevelopment, isEditable, isExternal, isHardware, isInjected, isMultisig, multiInfos, onSetGenesisHash, proxy, recoveryInfo, t, toggleBackup, toggleDelegate, toggleDerive, toggleForget, toggleIdentityMain, toggleIdentitySub, toggleMultisig, togglePassword, toggleProxyOverview, toggleRecoverAccount, toggleRecoverSetup, toggleUndelegate, vestingVestTx]);
 

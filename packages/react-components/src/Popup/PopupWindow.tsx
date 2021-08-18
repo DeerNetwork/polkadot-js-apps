@@ -36,7 +36,7 @@ const Window = styled.div<WindowProps>`
   z-index: 100;
 
   margin: 0.7rem 0;
-  padding: 0.85rem 1rem;
+  padding: 1rem 1rem;
 
   color: var(--color-text);
   background-color: var(--bg-menu);
