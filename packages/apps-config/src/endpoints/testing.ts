@@ -99,6 +99,13 @@ export function createTesting (t: TFunction, firstOnly?: boolean): LinkOption[] 
       }
     },
     {
+      info: 'deer-testnet',
+      text: t('rpc.test.deer', 'Deer', { ns: 'apps-config' }),
+      providers: {
+        'Deer Network': 'wss://t-api.deernetwork.org'
+      }
+    },
+    {
       info: 'dock-testnet',
       isDisabled: true, // https://github.com/polkadot-js/apps/issues/5869
       text: t('rpc.test.dock-testnet', 'Dock', { ns: 'apps-config' }),

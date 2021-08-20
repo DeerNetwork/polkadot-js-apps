@@ -23,6 +23,7 @@ import testPara from './cumulus-test-parachain';
 import darwinia from './darwinia';
 import darwiniaParachain from './darwinia-parachain';
 import datahighwayParachain from './datahighway';
+import deer from './deer';
 import dockPoaMainnet from './dock-poa-mainnet';
 import dockPoaTestnet from './dock-poa-testnet';
 import dotmog from './dotmog';
@@ -133,6 +134,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   datahighway: westlake,
   'datahighway-parachain': datahighwayParachain,
   dawn: eave,
+  deer,
   'dev-parachain': zenlink,
   'dock-main-runtime': dockPoaMainnet,
   'dock-test-runtime': dockPoaTestnet,
