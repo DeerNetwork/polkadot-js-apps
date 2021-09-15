@@ -12,7 +12,7 @@
     "@bifrost-finance/type-definitions": "1.2.11",
     "@crustio/type-definitions": "0.0.10",
     "@darwinia/types": "1.1.6",
-    "@deernetwork/type-definitions": "^0.1.3",
+    "@deernetwork/type-definitions": "^0.2.1",
     "@digitalnative/type-definitions": "1.1.11",
     "@docknetwork/node-types": "0.4.7",
     "@edgeware/node-types": "3.6.2-wako",
