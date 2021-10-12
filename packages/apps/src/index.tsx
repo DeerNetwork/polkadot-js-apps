@@ -1,6 +1,7 @@
 // Copyright 2017-2021 @polkadot/apps authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
+import 'core-js/stable/typed-array';
 // setup these right at front
 import './initSettings';
 import 'semantic-ui-css/semantic.min.css';
