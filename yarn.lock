@@ -1502,10 +1502,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@deernetwork/type-definitions@npm:0.2.6":
-  version: 0.2.6
-  resolution: "@deernetwork/type-definitions@npm:0.2.6"
-  checksum: 21dd43fe9ebb7a39c803dc4a28bd54f39f7592a29c89d32822235bf1f6ad5ab2769e6abcfef7d90508cf86e5e7d3a9fef1a00ba456486a203380b92bf3302c0e
+"@deernetwork/type-definitions@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@deernetwork/type-definitions@npm:0.3.0"
+  checksum: f3f912ef2d9d0a3de51f4379525cee1437bdd489fad0d39efff5b7c04f16f5fc76568d8059c746542548674ded9612405e997afd7d598fb7424e860fc505b662
   languageName: node
   linkType: hard
 
@@ -2825,7 +2825,7 @@ __metadata:
     "@bifrost-finance/type-definitions": 1.3.12
     "@crustio/type-definitions": 1.2.0
     "@darwinia/types": 2.6.100-1
-    "@deernetwork/type-definitions": 0.2.6
+    "@deernetwork/type-definitions": 0.3.0
     "@digitalnative/type-definitions": 1.1.26
     "@docknetwork/node-types": 0.6.0
     "@edgeware/node-types": 3.6.2-wako
