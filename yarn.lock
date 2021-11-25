@@ -1502,6 +1502,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@deernetwork/type-definitions@npm:0.2.6":
+  version: 0.2.6
+  resolution: "@deernetwork/type-definitions@npm:0.2.6"
+  checksum: 21dd43fe9ebb7a39c803dc4a28bd54f39f7592a29c89d32822235bf1f6ad5ab2769e6abcfef7d90508cf86e5e7d3a9fef1a00ba456486a203380b92bf3302c0e
+  languageName: node
+  linkType: hard
+
 "@develar/schema-utils@npm:~2.6.5":
   version: 2.6.5
   resolution: "@develar/schema-utils@npm:2.6.5"
@@ -2818,6 +2825,7 @@ __metadata:
     "@bifrost-finance/type-definitions": 1.3.12
     "@crustio/type-definitions": 1.2.0
     "@darwinia/types": 2.6.100-1
+    "@deernetwork/type-definitions": 0.2.6
     "@digitalnative/type-definitions": 1.1.26
     "@docknetwork/node-types": 0.6.0
     "@edgeware/node-types": 3.6.2-wako
