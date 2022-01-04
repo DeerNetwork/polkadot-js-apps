@@ -110,6 +110,13 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
       }
     },
     {
+      info: 'deer-testnet',
+      text: t('rpc.test.deer', 'Deer', { ns: 'apps-config' }),
+      providers: {
+        'Deer Network': 'wss://t-api.deernetwork.org'
+      }
+    },
+    {
       info: 'dock-testnet',
       text: t('rpc.test.dock-pos-testnet', 'Dock', { ns: 'apps-config' }),
       providers: {

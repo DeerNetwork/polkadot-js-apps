@@ -87,6 +87,13 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       }
     },
     {
+      info: 'deer-mainnet',
+      text: t('rpc.prod.deer', 'Deer', { ns: 'apps-config' }),
+      providers: {
+        'Deer Network': 'wss://api.deernetwork.org'
+      }
+    },
+    {
       info: 'crab',
       text: t('rpc.prod.crab', 'Darwinia Crab', { ns: 'apps-config' }),
       providers: {
