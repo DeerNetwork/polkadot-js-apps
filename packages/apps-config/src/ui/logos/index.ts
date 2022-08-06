@@ -112,6 +112,7 @@ import nodeCrustParachain from './nodes/crustParachain.svg';
 import nodeDaliTestnet from './nodes/dali.png';
 import nodeDarwinia from './nodes/darwinia.svg';
 import nodeDataHighway from './nodes/datahighway.png';
+import nodeDeer from './nodes/deer.png';
 import nodeDockMainnet from './nodes/dock-mainnet.png';
 import nodeDockTestnet from './nodes/dock-testnet.png';
 import nodeDolphin from './nodes/dolphin.svg';
@@ -269,6 +270,7 @@ export const chainLogos = Object.entries({
   DataHighway: nodeDataHighway,
   'DataHighway Spreehafen Rococo Parachain Testnet': chainRoccoDataHighway,
   'DataHighway Tanganika Kusama Parachain': chainKusamaDataHighway,
+  Deer: nodeDeer,
   'Dolphin Testnet': nodeDolphin,
   'Dora Factory': chainDorafactory,
   Efinity: chainEfinity,
@@ -692,6 +694,7 @@ export const namedLogos: Record<string, unknown> = {
   DaliTestnet: nodeDaliTestnet,
   darwinia: nodeDarwinia,
   datahighway: nodeDataHighway,
+  deer: nodeDeer,
   'dock-pos-mainnet': nodeDockMainnet,
   'dock-pos-testnet': nodeDockTestnet,
   dolphin: nodeDolphin,

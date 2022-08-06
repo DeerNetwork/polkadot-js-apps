@@ -46,6 +46,7 @@ const chainClover = 'linear-gradient(to right, #52ad75, #7cc773)';
 const chainChainx = '#F6C94A';
 const chainDarwinia = '#FF0083';
 const chainDali = '#000000';
+const chainDeer = '#fbc956';
 const chainDolphin = '#000000';
 const chainDorafactory = '#FF761C';
 const chainDotMog = '#020609';
@@ -308,6 +309,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Darwinia PC2': chainRoccoDarwinia,
   'DataHighway Spreehafen Rococo Parachain Testnet': chainRoccoDataHighway,
   'DataHighway Tanganika Kusama Parachain': chainKusamaDataHighway,
+  Deer: chainDeer,
   Dolphin: chainDolphin,
   'Dolphin Testnet': chainDolphin,
   'Dora Factory': chainDorafactory,

@@ -138,6 +138,13 @@ export const testChains: EndpointOption[] = [
     }
   },
   {
+    info: 'deer',
+    text: 'Deer',
+    providers: {
+      'Deer Network': 'wss://t-api.deernetwork.org'
+    }
+  },
+  {
     info: 'dock-testnet',
     isDisabled: true, // https://github.com/polkadot-js/apps/issues/6831
     text: 'Dock',

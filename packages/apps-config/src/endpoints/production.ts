@@ -100,6 +100,13 @@ export const prodChains: EndpointOption[] = [
     }
   },
   {
+    info: 'deer',
+    text: 'Deer',
+    providers: {
+      'Deer Network': 'wss://api.deernetwork.org'
+    }
+  },
+  {
     info: 'dock-pos-mainnet',
     text: 'Dock',
     providers: {
